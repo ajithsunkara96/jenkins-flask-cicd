@@ -6,12 +6,11 @@ pipeline {
         DOCKER_REGISTRY = "ajithsunkara96"
     }
 
-    stages {
-        stage('Clone') {
-            steps {
-                git branch 'main', url: 'https://github.com/ajithsunkara96/jenkins-flask-cicd.git'
-            }
-        }
+    stage('Clone') {
+    steps {
+        git branch: 'main', url: 'https://github.com/ajithsunkara96/jenkins-flask-cicd.git'
+    }
+}
 
         stage('Install Dependencies') {
             steps {
