@@ -29,7 +29,7 @@ git clone https://github.com/ajithsunkara96/jenkins-flask-cicd.git
 cd jenkins-flask-cicd
 
 ### 2️⃣ Build & Run with Docker Compose
-bash
+```bash 
 Copy code
 docker-compose up --build
 App will be available at 👉 http://localhost:5000
