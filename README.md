@@ -27,3 +27,36 @@ This project demonstrates how to build a **CI/CD pipeline using Jenkins** for a 
 ```bash
 git clone https://github.com/ajithsunkara96/jenkins-flask-cicd.git
 cd jenkins-flask-cicd
+2️⃣ Build & Run with Docker Compose
+bash
+Copy code
+docker-compose up --build
+App will be available at: 👉 http://localhost:5000
+
+🧪 Running Tests
+bash
+Copy code
+pytest test_app.py
+🔄 Jenkins Pipeline
+The Jenkinsfile defines stages for:
+
+Checkout → Pulls source code from GitHub
+
+Build → Builds Docker image of the Flask app
+
+Test → Runs pytest unit tests
+
+Deploy → Deploys container using Docker Compose
+
+📚 Learning Outcome
+This project demonstrates how to:
+
+Build a CI/CD pipeline with Jenkins
+
+Automate testing and deployment of a Flask application
+
+Use Docker & Docker Compose for containerized development
+
+Integrate GitHub + Jenkins for continuous integration
+
+✍️ Author: Venkata Ajith Sunkara
