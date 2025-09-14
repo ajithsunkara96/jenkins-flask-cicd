@@ -21,7 +21,7 @@ This project demonstrates how to build a **CI/CD pipeline using Jenkins** for a 
 
 ---
 
-## ⚙️ Setup Instructions  
+## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
 ```bash
@@ -31,7 +31,7 @@ cd jenkins-flask-cicd
 bash
 Copy code
 docker-compose up --build
-App will be available at: 👉 http://localhost:5000
+App will be available at 👉 http://localhost:5000
 
 🧪 Running Tests
 bash
